@@ -1,0 +1,76 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><title>Совесть</title><base href="/sovest-calc"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><style>.loader, .loader__figure {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+
+  .loader {
+    overflow: visible;
+    padding-top: 2em;
+    height: 0;
+    width: 2em
+  }
+
+  .loader__figure {
+    height: 0;
+    width: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0 solid #9b4dca;
+    border-radius: 50%;
+    -webkit-animation: loader-figure 1.15s infinite cubic-bezier(.215, .61, .355, 1);
+    animation: loader-figure 1.15s infinite cubic-bezier(.215, .61, .355, 1)
+  }
+
+  @-webkit-keyframes loader-figure {
+    0% {
+      height: 0;
+      width: 0;
+      background-color: #9b4dca
+    }
+    29% {
+      background-color: #9b4dca
+    }
+    30% {
+      height: 2em;
+      width: 2em;
+      background-color: transparent;
+      border-width: 1em;
+      opacity: 1
+    }
+    100% {
+      height: 2em;
+      width: 2em;
+      border-width: 0;
+      opacity: 0;
+      background-color: transparent
+    }
+  }
+
+  @keyframes loader-figure {
+    0% {
+      height: 0;
+      width: 0;
+      background-color: #9b4dca
+    }
+    29% {
+      background-color: #9b4dca
+    }
+    30% {
+      height: 2em;
+      width: 2em;
+      background-color: transparent;
+      border-width: 1em;
+      opacity: 1
+    }
+    100% {
+      height: 2em;
+      width: 2em;
+      border-width: 0;
+      opacity: 0;
+      background-color: transparent
+    }
+  }</style><link href="styles.0ccec635941fb89a2b78.bundle.css" rel="stylesheet"/></head><body><main id="loader" class="loader"><div class="loader__figure"></div></main><main id="wrapper" class="wrapper" style="display: none"><nav><section class="container"></section></nav><section class="container"><header><h3>Колькулятор для карты Совесть</h3></header><hr><app-root></app-root></section><footer class="footer">Made by <strong><a href="https://github.com/farwydi" target="_blank">@farwydi</a></strong> with love <i class="fa fa-heart" aria-hidden="true"></i></footer></main><script type="text/javascript" src="inline.318b50c57b4eba3d437b.bundle.js"></script><script type="text/javascript" src="polyfills.bf95165a1d5098766b92.bundle.js"></script><script type="text/javascript" src="main.f9a03a741f2f916046f6.bundle.js"></script></body></html>
