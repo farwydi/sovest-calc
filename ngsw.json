@@ -10,7 +10,7 @@
         "/sovest-calc/favicon.ico",
         "/sovest-calc/index.html",
         "/sovest-calc/inline.318b50c57b4eba3d437b.bundle.js",
-        "/sovest-calc/main.9a830c1cb211d304687b.bundle.js",
+        "/sovest-calc/main.e96bec64939b013ad511.bundle.js",
         "/sovest-calc/polyfills.bf95165a1d5098766b92.bundle.js",
         "/sovest-calc/styles.521b1d9a84619f17e665.bundle.css"
       ],
@@ -20,17 +20,20 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
-      "urls": [],
+      "urls": [
+        "/sovest-calc/assets/loader.css"
+      ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
     "/sovest-calc/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "/sovest-calc/main.9a830c1cb211d304687b.bundle.js": "e74c1767c7a33383205754cd857dd9b5b80e7bcb",
+    "/sovest-calc/assets/loader.css": "f0f348cab6ad6ed4fabaadf01e831da26de8b17a",
+    "/sovest-calc/main.e96bec64939b013ad511.bundle.js": "42db69e3729b28eac0703e92c50bf54bd3ad3d2f",
     "/sovest-calc/polyfills.bf95165a1d5098766b92.bundle.js": "5f49131c0c147a20f91b1e77814434e0c77bd3dc",
     "/sovest-calc/styles.521b1d9a84619f17e665.bundle.css": "8e7c9bcff93ae74323bc125a6cb212cc83072833",
     "/sovest-calc/favicon.ico": "618b13845c4103eba6ac52d20bbb2439c5f3bbfa",
-    "/sovest-calc/index.html": "bef0dcc284c453ae689c7bb6baddf8e362bc7dd2"
+    "/sovest-calc/index.html": "38440acce69858b9ef0d0b6af27dc411b1180892"
   }
 }
