@@ -26,7 +26,7 @@
     <input type="number" placeholder="10" [id]="'plan-' + id" [(ngModel)]="plan">
   </div>
   <div class="column column-10">
-    <button [ngClass]="{'button-size':show_tooltip}" class="button-outline" (click)="emit()">
+    <button [ngClass]="{'button-height':show_tooltip}" class="button-width button-outline" (click)="emit()">
       <i class="fa" [ngClass]="{'fa-plus':add_type, 'fa-minus':!add_type}" aria-hidden="true"></i>
     </button>
   </div>

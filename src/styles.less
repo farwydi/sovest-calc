@@ -12,6 +12,64 @@ header {
 
 }
 
+.navigation {
+  background: #f4f5f6;
+  border-bottom: .1rem solid #d1d1d1;
+  display: block;
+  height: 5.2rem;
+  max-width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  &-git {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    height: 5.2rem;
+    width: 5.2rem;
+    text-align: center;
+    line-height: 6.3rem;
+  }
+
+  &-space {
+    height: 5.2rem;
+    margin-bottom: 6rem;
+  }
+
+  &-list {
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  &-item {
+    float: left;
+    margin-bottom: 0;
+    margin-left: 2.5rem;
+    position: relative;
+  }
+
+  &-link {
+    display: inline;
+    font-size: 1.6rem;
+    line-height: 5.2rem;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .title {
+    display: inline;
+    font-size: 1.6rem;
+    line-height: 5.2rem;
+    padding: 0;
+    text-decoration: none;
+  }
+}
+
 .footer {
   position: absolute;
   right: 0;
@@ -19,6 +77,10 @@ header {
   left: 0;
   padding: 2rem;
   text-align: center;
+
+  .love {
+    color: #9b4dca;
+  }
 }
 
 // Loader bar styles
